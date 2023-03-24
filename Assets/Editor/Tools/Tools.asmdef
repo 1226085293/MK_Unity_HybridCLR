@@ -1,0 +1,25 @@
+{
+    "name": "Tools",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2373f786d14518f44b0f475db77ba4de",
+        "GUID:faab8d183852e4b4f8ee32162a172399"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.focus-creative-games.hybridclr_unity",
+            "expression": "[1.1.18,10]",
+            "define": "NEW_HYBRIDCLR_API"
+        }
+    ],
+    "noEngineReferences": false
+}

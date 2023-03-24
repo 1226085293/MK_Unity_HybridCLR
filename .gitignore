@@ -1,0 +1,13 @@
+.vs/
+.vscode/
+Android/
+Android_BurstDebugInformation_DoNotShip/
+HybridCLRData/
+LocalData/
+Logs/
+test_BackUpThisFolder_ButDontShipItWithYourGame/
+test_BurstDebugInformation_DoNotShip/
+UserSettings/
+Library/
+Temp/
+obj/
