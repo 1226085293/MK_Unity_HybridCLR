@@ -6,12 +6,6 @@ using UnityEngine.AddressableAssets;
 
 namespace HotFix
 {
-    struct MyValue
-    {
-        public int x;
-        public float y;
-        public string s;
-    }
     public class App
     {
         public static int Main()
@@ -20,19 +14,8 @@ namespace HotFix
             LoadMetadataForAOTAssembly();
             Debug.Log("ydd-- AOT程序集加载完毕!");
 #endif
-            TestAOTGeneric();
-
             LoadScene();
             return 0;
-        }
-        /// <summary>
-        /// 测试 aot泛型
-        /// </summary>
-        public static void TestAOTGeneric()
-        {
-            var arr = new List<MyValue>();
-            arr.Add(new MyValue() { x = 1, y = 10, s = "abc" });
-            Debug.Log("AOT泛型补充元数据机制测试正常");
         }
         /// <summary>
         /// 切换场景

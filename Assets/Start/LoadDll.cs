@@ -1,12 +1,13 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-#if !UNITY_EDITOR
 using UnityEngine.AddressableAssets;
-#endif
+using HybridCLR;
+//#if !UNITY_EDITOR
+//using UnityEngine.AddressableAssets;
+//#endif
 
 /// <summary>
 /// 加载热更新Dll
@@ -20,13 +21,6 @@ public class LoadDll : MonoBehaviour
                 "mscorlib.dll",
                 "System.dll",
                 "System.Core.dll"
-                // 如果使用了Linq，需要这个
-                // "Newtonsoft.Json.dll",
-                // "protobuf-net.dll",
-                // "Google.Protobuf.dll",
-                // "MongoDB.Bson.dll",
-                // "DOTween.Modules.dll",
-                // "UniTask.dll",
             };
     // Start is called before the first frame update
     void Start()

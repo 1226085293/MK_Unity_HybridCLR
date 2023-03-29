@@ -73,7 +73,7 @@ MonoBehaviour:
       - m_Id: e47300b6ce012394ba7ea88f6a208aa6
         m_Value: LocalData/[BuildTarget]
       - m_Id: caceff30f53b72a4795a330029d1a198
-        m_Value: /storage/emulated/0/Android/data/com.cocos.demo/unity
+        m_Value: /data/user/0/com.cocos.demo/unity
       - m_Id: 7c4d7d81dbef5a347bcb3f876abb6f5c
         m_Value: ServerData/[BuildTarget]
       - m_Id: f4793a142be61af43b9e8a8d1aeb53b9
